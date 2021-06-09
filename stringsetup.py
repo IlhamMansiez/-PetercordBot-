@@ -1,4 +1,4 @@
-#Ilham mansiez
+# Ilham mansiez
 
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
