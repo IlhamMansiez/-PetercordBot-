@@ -467,7 +467,9 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("Source code", "https://github.com/IlhamMansiez/PetercordBot"),
+                Button.url(
+                    "Source code", "https://github.com/IlhamMansiez/PetercordBot"
+                ),
                 Button.url(
                     "Deploy",
                     "https://dashboard.heroku.com/new?button-url=https://t.me/meong",
